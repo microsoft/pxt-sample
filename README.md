@@ -9,7 +9,7 @@ If you'd like to start your own editor, fork this repo and fix all the TODOs.
 
 ## TODOs
 
-- [ ] Fork repo and setup local server (see below)
+- [ x ] Fork repo and setup local server (see below)
 - [ ] Update metadata in ``pxtarget.json``. Change the id, title, name, etc... to your taste.
 - [ ] Update the JavaScript runtime in ``sim/simulator.ts``. If needed add additional JS library under ``sim/public/**``
 and edit ``sim/public/simulator.html`` with additional ``script`` tags.

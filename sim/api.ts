@@ -13,7 +13,7 @@ namespace pxsim.hare {
     //% blockId=sampleOnLand block="on land"
     //% optionalVariableArgs
     export function onLand(handler: (height: number, more: number, most: number) => void) {
-
+        
     }
 }
 
@@ -87,7 +87,7 @@ namespace pxsim.console {
     /**
      * Print out message
      */
-    //% 
+    //% block
     export function log(msg:string) {
         logMsg("CONSOLE: " + msg)
         // why doesn't that work?

@@ -68,7 +68,7 @@ declare namespace console {
     /**
      * Print out message
      */
-    //%
+    //% block
     //% shim=console::log
     function log(msg: string): void;
 

@@ -1,4 +1,5 @@
 {
+  "Array._pickRandom|block": "get random value from %list",
   "Array._popStatement|block": "remove last value from %list",
   "Array._removeAtStatement|block": "%list| remove value at %index",
   "Array._shiftStatement|block": "remove first value from %list",
@@ -34,6 +35,7 @@
   "String.split|block": "split %this=text|at %separator",
   "String.substr|block": "substring of %this=text|from %start|of length %length",
   "String|block": "String",
+  "console.log|block": "true",
   "console|block": "console",
   "hare.hop|block": "hop %hop on color %color=colorNumberPicker",
   "hare.onLand|block": "on land",

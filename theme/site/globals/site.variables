@@ -17,6 +17,10 @@
 @googleFontName    : 'Roboto Mono';
 @importGoogleFonts : true;
 
+.loadFonts() when (@importGoogleFonts) {
+  @import (css) url('@{googleProtocol}fonts.googleapis.com/css?family=@{googleFontRequest}');
+}
+
 @docsHeaderFont: @headerFont;
 @docsPageFont: @pageFont;
 
